@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mathKAYA Privacy Policy</title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.55;color:#13241A;background:#fff}
+  h1{color:#0E7A3A}h2{margin-top:28px;color:#0E7A3A}
+  table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #d8e6dd;padding:6px 8px;text-align:left;vertical-align:top}
+  .note{background:#F3FBF6;border-left:4px solid #1FB85A;padding:10px 12px}
+  code{background:#F3FBF6;padding:1px 4px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>mathKAYA — Privacy Policy</h1>
+<p><strong>Effective date:</strong> 13 September 2026<br>
+<strong>App:</strong> mathKAYA (package <code>com.davincicodex.mathkaya</code>)<br>
+<strong>Developer:</strong> DaVinci Codex<br>
+<strong>Contact:</strong> <a href="mailto:pelemervictor20@gmail.com">pelemervictor20@gmail.com</a></p>
+
+<p>mathKAYA is a mathematics learning app for Grade 1–6 pupils and their teachers in the Philippines.
+This policy explains what information the app stores, why, and who can see it. We wrote it to be read
+by parents and teachers as well as reviewers.</p>
+
+<h2>1. What we collect</h2>
+<table>
+<tr><th>Information</th><th>When</th><th>Why</th></tr>
+<tr><td>Account ID and password</td><td>Sign-up</td><td>To sign in. The password is stored only as a secure hash by our authentication provider; we cannot read it.</td></tr>
+<tr><td>First name, last name, nickname, grade level, chosen avatar, optional profile photo</td><td>Sign-up and profile edits</td><td>To greet the learner, show the correct grade-level content, and let teachers recognise their pupils.</td></tr>
+<tr><td>Phone number and email address</td><td>Sign-up</td><td>Account recovery and, for teachers, contact. <strong>For learner accounts we recommend a parent's or teacher's contact details, not the child's.</strong></td></tr>
+<tr><td>Class membership, quiz answers, scores, drawings made on the in-app solution pad, excuse notes to the teacher</td><td>While using classroom features</td><td>So the teacher can grade and give feedback, and so progress is kept when the app is reinstalled.</td></tr>
+<tr><td>Practice progress (stars, coins, levels, activity log)</td><td>While practising</td><td>To keep the learner's progress across devices.</td></tr>
+</table>
+
+<p>We do <strong>not</strong> collect precise location, contacts, device identifiers for advertising, or any
+usage analytics. The app contains no advertising and no third-party tracking SDKs.</p>
+
+<h2>2. Optional AI features</h2>
+<p>Some features send short pieces of text to AI services through our own server so that the phone never
+holds any service keys:</p>
+<ul>
+  <li><strong>Kuya Owl explanations and AI-made quizzes</strong> send the maths question, the chosen answer, the
+  correct answer, the grade level and the language to a large language model (Anthropic Claude). No names, IDs
+  or contact details are included.</li>
+  <li><strong>Natural voices</strong> send the sentence to be spoken (for example a quiz question) to a text-to-speech
+  service (ElevenLabs). The resulting audio is cached so the same sentence is generated only once.</li>
+</ul>
+<p>If the device is offline, the app falls back to built-in explanations and the device's own voice.</p>
+
+<h2>3. Keeping accounts secure</h2>
+<p>To stop someone else signing in with a stolen password, the app stores a little extra information:</p>
+<ul>
+  <li><strong>A random device code.</strong> When a second step is completed on a phone, that phone is
+  remembered for 30 days so the step is not repeated every time. The code is generated at random on the
+  device, is not derived from any hardware identifier, cannot be used to track anyone across apps or sites,
+  and is never used for advertising. Only a one-way hash of it is stored. Clearing the app's data replaces
+  it.</li>
+  <li><strong>Sign-in records.</strong> The time and outcome of recent sign-in attempts, so the account
+  owner can see them on the Security screen and so repeated wrong guesses can be slowed down. These are
+  deleted automatically after 180 days.</li>
+  <li><strong>A teacher's two-step sign-in.</strong> Teachers may turn on a 6-digit code from an
+  authenticator app. The shared secret is held by our authentication provider (Supabase), not by us.</li>
+  <li><strong>A learner's picture PIN.</strong> Children may choose a short sequence of pictures, asked for
+  only on a phone they have not used before. Only a one-way hash is stored, never the pictures themselves,
+  and a teacher can clear it if a child forgets. We do not store a phone number for this.</li>
+</ul>
+<p>None of this is shared with anyone, and none of it is used for advertising, analytics or profiling.</p>
+
+<h2>4. Where data is stored</h2>
+<p>Account and classroom data are stored in a database hosted by <strong>Supabase</strong>. Access is
+restricted by row-level security: a learner can only read their own records and the classes they joined;
+a teacher can only read the classes they created and the pupils enrolled in them. All traffic uses HTTPS.</p>
+
+<h2>5. Children's privacy</h2>
+<p>mathKAYA is designed for use by children under 13 with the involvement of a teacher or parent. We collect
+only what is needed to run a classroom. We do not show ads, do not sell data, and do not use data for
+profiling. A parent or teacher may ask us at any time to review or delete a child's account by contacting the
+address above; we delete the account and all its records within 30 days.</p>
+
+<h2>6. Sharing</h2>
+<p>We share data only with the service providers named above (Supabase for hosting and authentication, the AI
+and voice providers for the optional features described in section 2), and only the minimum needed for each
+service to work. We never sell personal information.</p>
+
+<h2>7. Retention and deletion</h2>
+<p>Data is kept while the account exists. Deleting the app does not delete the account; ask us (or your
+teacher) to delete it — see <a href="delete-account.html">how to delete your account</a>. Cached voice audio contains no personal information and may be kept indefinitely.</p>
+
+<h2>8. Security</h2>
+<p>Passwords are hashed by the authentication provider. Service keys are held on our servers, not in the app.
+Data is encrypted in transit. No system is perfectly secure; if we learn of a breach affecting you we will
+notify affected users through the contact details on file.</p>
+
+<h2>9. Changes</h2>
+<p>We will post any changes to this page and update the effective date above.</p>
+
+<div class="note">Questions or requests: <em><a href="mailto:pelemervictor20@gmail.com">pelemervictor20@gmail.com</a></em></div>
+</body>
+</html>
